@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body style="height: 90%; margin: 0">
+
+    <div class="nb_pageHeader">
+        <div class="row" data-equalizer data-equalize-on="small">
+            <div class="columns small-12 medium-6" data-equalizer-watch>
+                <div class="nb_pageHeader-container">
+                    <div class="nb_header-title nb_header-title--inline">
+                        <h1>History & Future: UK graduation mobility</h1>
+                    </div>
+                    <div class="nb_pageHeader-text">
+                        <p>
+                            <p>De Montfort University, in Leicester, UK, and Niels Brock Copenhagen Business College are
+                                delighted to offer this successful UK Master programme in Copenhagen.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="columns small-12 medium-6" data-equalizer-watch>
+
+                <div class="nb_pageHeader-image" data-equalizer-watch>
+
+                    <img src="./src/bg1.svg" alt="BIspetorvet_blue.svg" title="BIspetorvet_blue.svg" />
+
+                </div>
+
+
+
+                <div class="nb_pageHeader-cta">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div style="height: 90%; margin: 0">
+        <h2 style="text-align: center;">UK graduation overseas</h2>
+        <div id="container" style="height: 90%"></div>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+        <!-- <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=xfhhaTThl11qYVrqLZii6w8qE5ggnhrY&__ec_v__=20190126"></script>-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
+        <!--first graph-->
+        <script type="text/javascript" , src="./data/ukoverseas.js"></script>
+
+        <!--second graph-->
+
+
+
+        <!-- third graph-->
+        <div id="container" style="height: 100%">
+            <h2 style="text-align: center;margin-top:3em;margin-bottom: 2em;">UK STEM graduation overseas Top15
+                countries</h2>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script>window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'))</script>
+            <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/19.2.4/css/dx.common.css" />
+            <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/19.2.4/css/dx.light.css" />
+            <script src="https://cdn3.devexpress.com/jslib/19.2.4/js/dx.all.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/19.2.4/js/vectormap-data/world.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/19.2.4/js/vectormap-data/africa.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/19.2.4/js/vectormap-data/canada.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/19.2.4/js/vectormap-data/eurasia.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/19.2.4/js/vectormap-data/europe.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/19.2.4/js/vectormap-data/usa.js"></script>
+            <script src="data.js"></script>
+            <link rel="stylesheet" type="text/css" href="styles1.css" />
+            <script src="./data/platte.js"></script>
+            <div class="demo-container">
+                <div id="vector-map"></div>
+            </div>
+
+        </div>
+
+        <!--second graph-->
+        <div id="container" style="height: 100%">
+            <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Graduation migration and salary
+            </h1>
+            <div id="myDiv">
+                <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+                <script type="text/javascript" , src="./data/yearchange_salary.js"></script>
+            </div>
+        </div>
+
+
+        <div style="height: 100%;margin: 2em;
+    min-width: 600px;
+    max-width: 900px;
+    width: 75%;
+    margin-top: 30;">
+            <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">UK graduation employment in the
+                UK by region of HE Provider</h2>
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            <div id="sankey_multiple" style="  width: 836px; height: 100%;margin: 2em;">
+              <script src="./data/data_2016_region.js"></script>
+            </div>
+        </div>
+
+</body>
+
+</html>
