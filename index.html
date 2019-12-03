@@ -5,11 +5,13 @@
     <meta charset="utf-8">
 </head>
 
-<body style="height: 90%; margin: 0">
-
-    <div class="nb_pageHeader">
+<body style="height:100%; margin: 0;">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+   
+<div style="height: 900;">
+    <div class="nb_pageHeader"></div>
         <div class="row" data-equalizer data-equalize-on="small">
-            <div class="columns small-12 medium-6" data-equalizer-watch>
+            <div class="columns small-12 medium-6" data-equalizer-watch >
                 <div class="nb_pageHeader-container">
                     <div class="nb_header-title nb_header-title--inline">
                         <h1>History & Future: UK graduation mobility</h1>
@@ -26,22 +28,18 @@
 
                 <div class="nb_pageHeader-image" data-equalizer-watch>
 
-                    <img src="./src/bg1.svg" alt="BIspetorvet_blue.svg" title="BIspetorvet_blue.svg" />
+                    <img src="./src/bg1.svg" />
 
                 </div>
 
-
-
-                <div class="nb_pageHeader-cta">
-
-                </div>
             </div>
         </div>
     </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-
-    <div style="height: 90%; margin: 0">
+    <div style="height: 90%;">
         <h2 style="text-align: center;">UK graduation overseas</h2>
         <div id="container" style="height: 90%"></div>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
@@ -58,11 +56,11 @@
 
         <!--second graph-->
 
-
+<br><br>
 
         <!-- third graph-->
         <div id="container" style="height: 100%">
-            <h2 style="text-align: center;margin-top:3em;margin-bottom: 2em;">UK STEM graduation overseas Top15
+            <h2 style="text-align: center;margin-top:3em;margin-bottom: 3em;">UK STEM graduation overseas Top15
                 countries</h2>
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -79,7 +77,7 @@
             <script src="https://cdn3.devexpress.com/jslib/19.2.4/js/vectormap-data/europe.js"></script>
             <script src="https://cdn3.devexpress.com/jslib/19.2.4/js/vectormap-data/usa.js"></script>
             <script src="data.js"></script>
-            <link rel="stylesheet" type="text/css" href="styles1.css" />
+      
             <script src="./data/platte.js"></script>
             <div class="demo-container">
                 <div id="vector-map"></div>
@@ -88,15 +86,16 @@
         </div>
 
         <!--second graph-->
-        <div id="container" style="height: 100%">
-            <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Graduation migration and salary
-            </h1>
-            <div id="myDiv">
-                <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-                <script type="text/javascript" , src="./data/yearchange_salary.js"></script>
-            </div>
-        </div>
-
+       <div style="height: 100%">
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <script type="text/javascript" src="./data/yearchange_salary.js"> </script>
+            <div class="content">
+                <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Graduation migration and salary</h1>
+                
+                <div id="myDiv"></div>
+                </div>
+      <br><br><br><br>    <br><br>      
+        
 
         <div style="height: 100%;margin: 2em;
     min-width: 600px;
@@ -110,6 +109,7 @@
               <script src="./data/data_2016_region.js"></script>
             </div>
         </div>
+
 
 </body>
 
